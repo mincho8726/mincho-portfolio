@@ -139,14 +139,14 @@ textarea {
     width: 100%;
 }
 
-.form-content {
+.form_content {
     margin-bottom: 16px;
 }
 
 button {
     background-color: #535252;
     color: white;
-    width: 250p　x;
+    width: 250px;
     padding: 16px;
     text-align: center;
     margin: 0 auto;
