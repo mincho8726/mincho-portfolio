@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mincho portfolio site</title> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js" integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0=" crossorigin="anonymous"></script>
+    <script src="https://sdk.form.run/js/v2/formrun.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0c21ae2a67.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header">
+              <h1>mincho portfolio site</h1>
+              <div class="header_menu">
+                <nav>
+                    <ul class="nav-ul">
+                        <li class="nav-li"><a href="#about">About</a></li>
+                        <li class="nav-li"><a href="#service">Service</a></li>
+                        <li class="nav-li"><a href="#works">Works</a></li>
+                        <li class="nav-li"><a href="#contact">Contact</a></li>
+                    </ul>
+                    <ul class="socialBtn">
+                        <li class="twitter">
+                            <a href="https://twitter.com/mincholance" target="_blank">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+              </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section id="about">
+                <h2 class="title">About</h2>
+                <div class="about__area" >
+                    <div class="about__area-description-img" >
+                    <img src="boston-3690818_1280.jpg">
+                    </div>
+                <div class="about__area-description">
+                    <div class="about__area-description-text text">
+                        <p>
+                            はじめまして！ minchoと申します。<br>
+                            ITスキルを身に付け、自分の幅を広げるため、2020年6月からプログラミング学習開始。<br>
+                            将来的には、コンサルティングを通じて、お客様の業績拡大に寄与できる仕事に携わっていきたいと考えています。<br>
+                            誠心誠意、業務に邁進して参りますので、何卒よろしくお願い申し上げます。<br>
+                            趣味は卓球、筋トレ、読書です。<br>
+                            身長１９０cmに対し体重７０kgと低体重なので、１０kg増量が目標です。<br>
+                        </p>
+                    </div>
+                </div>
+                </div>
+            </section>
+
+            <section id="service">
+                <h2 class="title">Service</h2>
+                <div class="row">
+                    <div class="col-md-4 col-xs-12"> 
+                        <h3>Webサイト制作</h3>
+                        <div class="service-icon">
+                        <img src="web design.png" alt="Webサイト制作" width="300" height="300">
+                        </div>
+                        <p class="text">
+                        LP・HPの企画、制作、運営サポート<br>
+                        お客様のご要望に柔軟に対応致します。<br>
+                        </p>
+                    </div>
+
+                    <div class="col-md-4 col-xs-12"> 
+                        <h3>WordPress</h3>
+                        <div class="service-icon">
+                        <img src="wordpress-logo-stacked-rgb-300x186.png" alt="WordPress" width="300" height="300">
+                        </div>
+                        <p class="text">
+                        ２０２０年９月までに習得して、更新致します。
+                        </p>
+                    </div>
+                                    
+                    <div class="col-md-4 col-xs-12"> 
+                        <h3>Consulting</h3>
+                        <div class="service-icon">
+                        <img src="consulting.png" alt="Consulting" width="300" height="300">
+                        </div>
+                        <p class="text">
+                        金融機関での勤務経験があるため、資産運用・資金調達について、お気軽にご相談ください。全力で支援致します。
+                        </p>
+                    </div>
+                </div>
+            </section>
+               
+            <section id="works">
+                <h2 class="title">Works</h2>
+                <div class="row">
+                  <div class="col-md-4 col-xs-12">
+                    <img src="     ..." alt="">
+                  </div>
+                  <p>今後制作し、更新していきます。</p>
+                </div>
+              </section>
+
+            <section id="contact">
+                <h2 class="title">Contact</h2>
+                <div class="form">
+                <form class="formrun" action="https://form.run/api/v1/r/6mkzzy1nr31hkqmpgaj9k3t4" method="post">
+                    <div class="form_content">
+                        <label>お名前</label>
+                        <input name="お名前" type="text">
+                    </div>
+
+                    <div class="form_content">
+                        <label>メールアドレス [必須]</label>
+                        <input name="メールアドレス" type="text" data-formrun-type="email" data-formrun-required>
+                        <div data-formrun-show-if-error="メールアドレス">メールアドレスを正しく入力してください</div>
+                    </div>
+                    
+                    <div class="form_content">
+                        <label>件名</label>
+                        <input name="件名" type="text">
+                    </div>
+
+                    <div class="form_content">
+                        <label>お問い合わせ [必須]</label>
+                        <textarea rows=10 name="お問い合わせ" data-formrun-required></textarea>
+                        <div data-formrun-show-if-error="お問い合わせ">お問い合わせ入力してください</div>
+                    </div>
+        
+                    <div class="_formrun_gotcha">
+                        <style media="screen">._formrun_gotcha {position:absolute!important;height:1px;width:1px;overflow:hidden;}</style>
+                        <label for="_formrun_gotcha">If you are a human, ignore this field</label>
+                        <input type="text" name="_formrun_gotcha" id="_formrun_gotcha" tabindex="-1">
+                    </div>
+        
+                    <button type="submit" data-formrun-error-text="未入力の項目があります" data-formrun-submitting-text="送信中...">送信</button>
+                  </form>
+        
+                </div>
+            </section>
+        
+        </div>
+    </main>
+        
+    <footer>
+        <nav>
+            <ul class="footer-ul">
+                <li class="footer-li"><a href="#about">About</a></li>
+                <li class="footer-li"><a href="#service">Service</a></li>
+                <li class="footer-li"><a href="#works">Works</a></li>
+                <li class="footer-li"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="footer-link">
+            <a href="https://twitter.com/mincholance" target="_blank">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </div>
+        <p id="copyright">
+            <small>copyright ©︎ 2020 mincho All rights reserved.</small>
+        </p>
+    </footer>
+</body>
+</html>
